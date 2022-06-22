@@ -1,3 +1,5 @@
+@import "../utilities/colors";
+
 #main-page {
   height: calc(100vh - 100px);
   background-color: #222;
@@ -11,7 +13,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #fff;
     font-size: 2rem;
     text-align: center;
 
@@ -21,6 +22,7 @@
 
     h1 {
       max-width: 440px;
+      color: $main-page-h1-color;
     }
   }
 }
