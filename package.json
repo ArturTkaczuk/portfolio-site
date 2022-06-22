@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "parcel": "^2.6.2"
+  },
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturTkaczuk/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturTkaczuk/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/ArturTkaczuk/portfolio-site#readme",
+  "description": ""
+}
