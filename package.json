@@ -1,17 +1,16 @@
 {
   "dependencies": {
-    "parcel": "^2.6.2"
+    "particles.js": "^2.0.0"
   },
   "name": "portfolio-site",
   "version": "1.0.0",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "main": "index.js",
   "devDependencies": {
+    "parcel": "^2.6.2",
     "@parcel/transformer-sass": "^2.6.2"
   },
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/index.html --public-url .",
+    "build": "parcel build src/index.html --public-url . --no-source-maps"
   },
   "repository": {
     "type": "git",
