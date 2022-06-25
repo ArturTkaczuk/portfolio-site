@@ -1,0 +1,17 @@
+@import "../utilities/colors";
+
+.cv-button {
+  height: 50px;
+  width: 150px;
+  font-size: 2.25rem;
+  border-radius: 25px;
+  background-color: darken($navbar-a-color, 5%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.cv-button:hover {
+  background-color: darken($navbar-a-color, 25%);
+}
