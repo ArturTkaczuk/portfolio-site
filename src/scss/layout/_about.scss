@@ -1,7 +1,8 @@
 @import "../components/cv-button";
+@import "../utilities/mixins";
 
 #about {
-  height: 100vh;
+  @include max-width;
   padding: 20px;
   color: white;
   font-size: 2rem;

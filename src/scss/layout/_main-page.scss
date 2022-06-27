@@ -1,7 +1,9 @@
 @import "../utilities/colors";
 @import "../utilities/typed-js-cursor";
+@import "../utilities/mixins";
 
 #main-page {
+  @include max-width;
   position: relative;
   height: calc(100vh - 100px);
   background-color: #222;
