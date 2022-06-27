@@ -5,13 +5,22 @@
   width: 150px;
   font-size: 2.25rem;
   border-radius: 25px;
-  background-color: darken($navbar-a-color, 5%);
+  background-color: darken($navbar-a-color, 25%);
   border: none;
-  color: white;
+  color: #fff;
   cursor: pointer;
   transition: 0.5s;
+
+  .hover-code {
+    color: darken($navbar-a-color, 25%);
+  }
 }
 
 .cv-button:hover {
-  background-color: darken($navbar-a-color, 25%);
+  background-color: #111;
+
+  .hover-code {
+    transition: 0.5s;
+    color: #fff;
+  }
 }

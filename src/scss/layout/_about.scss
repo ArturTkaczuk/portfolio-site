@@ -3,7 +3,20 @@
 
 #about {
   @include max-width;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   padding: 20px;
-  color: white;
+  color: #fff;
   font-size: 2rem;
+
+  blockquote {
+    max-width: 500px;
+    align-self: center;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 }
