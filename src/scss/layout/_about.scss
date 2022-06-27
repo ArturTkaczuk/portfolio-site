@@ -2,21 +2,43 @@
 @import "../utilities/mixins";
 
 #about {
-  @include max-width;
+  @include content-max-width;
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
   color: #fff;
   font-size: 2rem;
+  @media (max-width: 640px) {
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
 
   blockquote {
-    max-width: 500px;
+    display: flex;
+    gap: 20px;
+    max-width: 600px;
     align-self: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #444;
+    box-shadow: 0 0 15px 10px #444;
+    @media (max-width: 640px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .fa-solid {
+      font-size: 3rem;
+      @media (max-width: 640px) {
+        font-size: 2rem;
+      }
+    }
 
     a {
       color: #fff;
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 }

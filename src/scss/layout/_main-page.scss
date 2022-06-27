@@ -3,7 +3,7 @@
 @import "../utilities/mixins";
 
 #main-page {
-  @include max-width;
+  @include content-max-width;
   position: relative;
   height: calc(100vh - 100px);
   background-color: #222;

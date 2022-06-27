@@ -1,6 +1,7 @@
 @import "../utilities/colors";
 
 .cv-button {
+  position: relative;
   height: 50px;
   width: 150px;
   font-size: 2.25rem;
@@ -12,7 +13,16 @@
   transition: 0.5s;
 
   .hover-code {
+    position: absolute;
     color: darken($navbar-a-color, 25%);
+
+    &.left {
+      left: 20px;
+    }
+
+    &.right {
+      right: 25px;
+    }
   }
 }
 
