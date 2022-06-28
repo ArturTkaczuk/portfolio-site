@@ -1,8 +1,15 @@
+// Reset
 @import "./base/reset";
-@import "./libraries-elements/particlesjs";
+// Body styling
 @import "./base/body";
-
+// Layout style
 @import "./layout/navbar";
 @import "./layout/main-page";
 @import "./layout/about";
 @import "./layout/skills";
+
+// Libraries styles
+@import "./libraries-elements/particlesjs";
+@import "./libraries-elements/typed-js-cursor";
+// Components styles
+@import "./components/button";

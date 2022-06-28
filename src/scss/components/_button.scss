@@ -1,6 +1,6 @@
 @import "../utilities/colors";
 
-.cv-button {
+.button {
   position: relative;
   height: 50px;
   width: 150px;
@@ -26,7 +26,7 @@
   }
 }
 
-.cv-button:hover {
+.button:hover {
   background-color: #111;
 
   .hover-code {
