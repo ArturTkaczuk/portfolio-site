@@ -1,14 +1,15 @@
 #particles-js {
   position: absolute;
   display: block;
-  top: 0;
+  top: 100px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 100px);
 }
 
 @media (max-width: 640px) {
   #particles-js {
+    top: 200px;
     height: calc(100vh - 200px);
   }
 }
