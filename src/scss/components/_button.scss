@@ -2,6 +2,9 @@
 
 .button {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 50px;
   width: 150px;
   font-size: 2.25rem;
