@@ -13,7 +13,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 
   .hover-code {
     position: absolute;
@@ -30,6 +30,7 @@
 }
 
 .button:hover {
+  transform: scale(1.05);
   background-color: #111;
 
   .hover-code {
