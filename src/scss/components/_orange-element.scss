@@ -1,0 +1,10 @@
+@import "../utilities/colors";
+
+.orange {
+  color: $navbar-a-color;
+
+  &.hover:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
