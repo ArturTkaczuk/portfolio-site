@@ -193,10 +193,73 @@
           Visit my <span class="orange hover">GitHub</span> to see more
         </p>
       </div>
+      <div id="contact">
+        <div class="form-container">
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/tkaczukartur@gmail.com"
+            method="POST"
+          >
+            <h2>Send me a message</h2>
+            <div class="form-group">
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder=" "
+                required
+              />
+              <label for="name">Full Name</label>
+            </div>
+            <div class="form-group">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder=" "
+                required
+              />
+              <label for="email">Email Address</label>
+            </div>
+            <div class="form-group">
+              <input
+                id="subject"
+                type="text"
+                name="subject"
+                placeholder=" "
+                required
+              />
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                rows="10"
+                placeholder=" "
+                required
+              ></textarea>
+              <label for="name">Your Message</label>
+            </div>
+            <!-- _honey - anti spam input field -->
+            <input type="text" name="_honey" style="display: none" />
+            <!-- _autoresponse -->
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Thank you for contacting me! I read every message and typically respond within 48 hours if a reply is required. If it’s urgent, I encourage you to call me at + 48 600 989 818 Have a wonderful day! -	Artur Tkaczuk
+        "
+            />
+            <!-- _next - page after submit -->
+            <input type="hidden" name="_next" value="https://google.com" />
+            <button type="submit" class="submit-button">Submit</button>
+          </form>
+        </div>
+      </div>
     </main>
     <!-- Particles scripts -->
-    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="./javascript/particles.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./javascript/particles.js"></script>
     <!-- Typed.js script -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"
