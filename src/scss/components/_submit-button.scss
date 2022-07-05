@@ -1,6 +1,6 @@
 .submit-button {
   width: 100%;
-  background-color: darken($navbar-a-color, 25%);
+  background-color: darken($orange-color, 25%);
   font-size: 1.3rem;
   border: 0;
   color: #fff;
@@ -10,6 +10,6 @@
   transition: 0.5s;
 
   &:hover {
-    background-color: darken($navbar-a-color, 35%);
+    background-color: darken($orange-color, 35%);
   }
 }

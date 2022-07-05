@@ -5,7 +5,7 @@
   top: 0px;
   left: 0px;
   width: 100vw;
-  background-color: #000;
+  background-color: $dark-one;
   font-size: 2rem;
   display: flex;
   justify-content: center;
@@ -26,11 +26,11 @@
       transition: 0.2s;
 
       &.active {
-        color: $navbar-a-color;
+        color: $orange-color;
       }
 
       &:hover {
-        color: $navbar-a-color;
+        color: $orange-color;
       }
     }
   }
