@@ -1,6 +1,8 @@
 # Website
 
-Portfolio website. Check it [Live here](https://portfolio-site-at.netlify.app/)
+Fully custom portfolio website. [UI](https://www.figma.com/file/BbcndOIKxT2wy0wdzFmVL7/Portfolio-site?node-id=0%3A1) + frontend. 
+
+Check it [Live here](https://portfolio-site-at.netlify.app/)
 
 ## Table of Contents
 
@@ -73,6 +75,8 @@ Libraries:
 (Like combining TS and Sass would cause a lot of trouble without a dev server on watch mode)
 3. Learned how to split project's code to SCSS modules
 4. Learned how to manage a project with **Kanban board**, **Issues** and **Milestones** in Projects on GitHub
+5. Practiced styling in SCSS
+6. Practiced basic UI design in Figma
 
 ## Support
 
