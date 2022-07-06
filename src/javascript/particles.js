@@ -5,7 +5,7 @@ Density settings:
 700 - 1000+ - okay
 */
 
-let density = 1000;
+let density = 900;
 
 particlesJS("particles-js", {
   particles: {

@@ -61,9 +61,15 @@
 }
 
 @media (max-width: 900px) {
-  .double-flex {
-    height: 100%;
-    flex-direction: column-reverse;
+  #main-page {
+    .double-flex {
+      height: 100%;
+      flex-direction: column-reverse;
+      .pixelart-picture {
+        width: 150px;
+        height: 150px;
+      }
+    }
   }
 }
 
