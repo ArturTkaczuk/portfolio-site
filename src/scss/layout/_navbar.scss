@@ -2,27 +2,29 @@
 
 #navbar {
   position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  background-color: $dark-one;
-  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+
+  background-color: $dark-one;
+  font-size: 2rem;
   z-index: 10;
 
   ul {
     display: flex;
     gap: 40px;
-    list-style-type: none;
     padding-right: 50px;
 
+    list-style-type: none;
+
     a {
-      text-decoration: none;
-      font-style: normal;
       color: #fff;
+      font-style: normal;
+      text-decoration: none;
       transition: 0.2s;
 
       &.active {
@@ -40,9 +42,10 @@
   #navbar {
     position: absolute;
     justify-content: center;
-    text-align: center;
-    font-size: 1rem;
     height: 200px;
+
+    font-size: 1rem;
+    text-align: center;
 
     ul {
       flex-direction: column;

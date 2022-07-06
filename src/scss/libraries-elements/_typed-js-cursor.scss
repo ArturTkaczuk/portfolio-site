@@ -1,9 +1,10 @@
 .typed-cursor {
   display: inline;
-  font-size: 4.5rem;
+
   color: #fff;
-  opacity: 1;
+  font-size: 4.5rem;
   animation: blink 0.7s infinite;
+  opacity: 1;
 }
 
 @keyframes blink {

@@ -2,14 +2,15 @@
 
 #skills {
   @include content-max-width;
-  color: #ffffff;
-  font-size: 2rem;
-  padding: 20px;
   display: flex;
   justify-content: space-evenly;
   gap: 40px;
   width: 100%;
+  padding: 20px;
   margin-top: 200px;
+
+  color: #fff;
+  font-size: 2rem;
 
   ul {
     display: flex;
@@ -34,6 +35,7 @@
   #skills {
     flex-direction: column;
     align-items: center;
+
     text-align: center;
   }
 }

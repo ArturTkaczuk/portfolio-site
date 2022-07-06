@@ -1,10 +1,10 @@
 #particles-js {
   position: absolute;
   display: block;
-  top: 100px;
-  left: 0;
   width: 100%;
   height: calc(100vh - 100px);
+  top: 100px;
+  left: 0;
 }
 
 @media (max-width: 640px) {
