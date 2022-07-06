@@ -51,3 +51,13 @@
     }
   }
 }
+
+// Div anchors scrolling too far - fix
+@media (min-width: 640px) {
+  #about,
+  #skills,
+  #projects,
+  #contact {
+    scroll-margin-top: 85px;
+  }
+}
