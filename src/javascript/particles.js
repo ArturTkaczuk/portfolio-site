@@ -1,10 +1,19 @@
+/*
+Density settings:
+0 - 200 - lagging
+200 - 700 - may cause lower page performance
+700 - 1000+ - okay
+*/
+
+let density = 1000;
+
 particlesJS("particles-js", {
   particles: {
     number: {
       value: 100,
       density: {
         enable: true,
-        value_area: 500,
+        value_area: density,
       },
     },
     color: {
@@ -108,20 +117,20 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
-var count_particles, stats, update;
-stats = new Stats();
-stats.setMode(0);
-stats.domElement.style.position = "absolute";
-stats.domElement.style.left = "0px";
-stats.domElement.style.top = "0px";
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector(".js-count-particles");
-update = function () {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
+// var count_particles, stats, update;
+// stats = new Stats();
+// stats.setMode(0);
+// stats.domElement.style.position = "absolute";
+// stats.domElement.style.left = "0px";
+// stats.domElement.style.top = "0px";
+// document.body.appendChild(stats.domElement);
+// count_particles = document.querySelector(".js-count-particles");
+// update = function () {
+//   stats.begin();
+//   stats.end();
+//   if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+//     count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+//   }
+//   requestAnimationFrame(update);
+// };
+// requestAnimationFrame(update);
