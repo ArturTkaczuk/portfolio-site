@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "del dist && parcel src/index.html --dist-dir dist",
-    "build": "del build && parcel build src/index.html --public-url ./ --no-source-maps --dist-dir build"
+    "build": "del build && parcel build src/index.html --public-url ./ --no-source-maps --dist-dir docs"
   },
   "repository": {
     "type": "git",
