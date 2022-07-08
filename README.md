@@ -2,7 +2,7 @@
 
 Fully custom portfolio website. [UI](https://www.figma.com/file/BbcndOIKxT2wy0wdzFmVL7/Portfolio-site?node-id=0%3A1) + frontend. 
 
-Check it [Live here](https://portfolio-site-at.netlify.app/)
+Check it [Live here]()
 
 ## Table of Contents
 
