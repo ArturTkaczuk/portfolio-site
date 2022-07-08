@@ -1,0 +1,19 @@
+@import "../scss/base/reset";
+@import "./utilities/colors";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+
+  color: #fff;
+  background-color: $background-color;
+  text-align: center;
+
+  .thank-you {
+    max-height: 65vh;
+  }
+}
