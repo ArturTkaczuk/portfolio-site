@@ -70,7 +70,7 @@ Libraries:
 
 ## Lessons:
 
-1. Learned how to work with Parcel and how to set it up
+1. Learned how to work with Parcel, how to set it up and how to structure project files
 2. Learned that module bundler with a dev server is crucial when building a project with more than one language extensions 
 (Like combining TS and Sass would cause a lot of trouble without a dev server on watch mode)
 3. Learned how to split project's code to SCSS modules
