@@ -1,6 +1,6 @@
 # Website
 
-Fully custom portfolio website. [UI](https://www.figma.com/file/BbcndOIKxT2wy0wdzFmVL7/Portfolio-site?node-id=0%3A1) + frontend. 
+Fully custom onepage portfolio website. [UI](https://www.figma.com/file/BbcndOIKxT2wy0wdzFmVL7/Portfolio-site?node-id=0%3A1) + frontend. 
 
 Check it [Live here](https://arturtkaczuk.github.io/portfolio-site/)
 
