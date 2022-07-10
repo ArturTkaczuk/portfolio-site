@@ -41,8 +41,8 @@ Download project from [this link](https://github.com/ArturTkaczuk/portfolio-site
 ## Usage
 
 Useful commands - run in project's directory:
-1. Dev server `npm run start`
-2. Production build `npm run build`
+1. Development server `npm run watch:dev`
+2. Production build `npm run build:prod`
 
 >Write Y in terminal if prompted
 
