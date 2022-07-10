@@ -9,8 +9,8 @@
     "parcel": "^2.6.2"
   },
   "scripts": {
-    "start": "del dist && parcel src/*.html --dist-dir dist --open",
-    "build": "del docs && parcel build src/*.html --public-url ./ --no-source-maps --dist-dir docs"
+    "watch:dev": "del dist && parcel src/*.html --dist-dir dist --open",
+    "build:prod": "del docs && parcel build src/*.html --public-url ./ --no-source-maps --dist-dir docs"
   },
   "repository": {
     "type": "git",
