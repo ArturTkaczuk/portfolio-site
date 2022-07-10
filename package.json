@@ -6,7 +6,8 @@
   "version": "1.0.0",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
-    "parcel": "^2.6.2"
+    "parcel": "^2.6.2",
+    "posthtml-include": "^1.7.4"
   },
   "scripts": {
     "watch:dev": "del dist && parcel src/*.html --dist-dir dist --open",
