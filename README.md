@@ -77,6 +77,7 @@ Libraries:
 4. Learned how to manage a project with **Kanban board**, **Issues** and **Milestones** in Projects on GitHub
 5. Practiced styling in SCSS
 6. Practiced basic UI design in Figma
+7. Learned how to split big html file to smaller parts with [posthtml-include npm library](https://www.npmjs.com/package/posthtml-include)
 
 ## Support
 
