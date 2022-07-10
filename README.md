@@ -57,6 +57,7 @@ Libraries:
 - Parcel (module bundler)
 - Typed.js (library)
 - Particles.js
+- posthtml-include (splitting big html file to smaller parts)
 
 3rd party services:
 - formsubmit.co (submit form without backend)
